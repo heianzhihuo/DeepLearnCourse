@@ -1,7 +1,7 @@
-#深度学习项目
+## 深度学习项目
 数据部分
 
-##orls_faces文件夹是ORL face database 人脸识别数据集
+## orls_faces文件夹是ORL face database 人脸识别数据集
 the Olivetti Research Laboratory in Cambridge, UK
 40个类别，每个类别10个样本
 PGM格式，92x112的8位灰度图。
@@ -15,7 +15,7 @@ PGM格式，92x112的8位灰度图。
 链接
 http://www.cl.cam.ac.uk/research/dtg/attarchive/facedatabase.html
 
-##load_data.py
+## load_data.py
 load_all_data()
 返回所有的数据，返回数据是list，包含40个list元素，每个list包含同一个类别的10个np.matrix(112x92,dtype=uint8)
 [[np.matrix(112x92),...],...]
